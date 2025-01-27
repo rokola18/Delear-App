@@ -1,0 +1,86 @@
+
+.papa{
+    display: grid;
+    grid-template-columns: minmax(8rem, 1fr) minmax(min-content, 95rem) minmax(8rem, 1fr);
+    margin-top: 120px;
+}
+
+.titulo-2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titulo-3{
+    text-align: center;
+}
+
+.titulo-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    margin: 13px 0px;
+}
+
+span{
+    font-weight: 700;
+}
+
+.primera{
+    display: grid;
+    grid-column: 2 / 3;
+}
+
+.segunda{
+    grid-column: 2 / 3;
+}
+
+.tercera{
+    grid-column: 2 / 3;
+    margin: 35px 0
+}
+
+.dinamico{
+    margin-bottom: 40px;
+}
+
+.etiquetas{
+    display: flex;
+    column-gap: 50px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 25px;
+}
+
+input{
+    width: 100%;
+    height: 20px;
+}
+
+.bajar{
+    margin-top: 150px;
+}
+
+.notario{
+    margin: 0;
+    font-weight: 500;
+}
+
+@media print {
+    label, .dinamico {
+      display: none; 
+    }
+
+    .papa{
+        margin-top: 70px;
+    }
+  }

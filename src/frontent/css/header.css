@@ -1,0 +1,65 @@
+.position{
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.titulo{
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(to right, black, blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titulo h2{
+    color: azure;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.iconBars{
+    color: azure;
+    position: absolute;
+    left: 0;
+    margin-left: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.options{
+    background-color: white;
+    position: absolute;
+    top: 77px;
+    left: 8px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 10px 10px ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), /* Sombra inferior */
+    0 -4px 8px rgba(0, 0, 0, 0.2), /* Sombra superior */
+    -4px 0 8px rgba(0, 0, 0, 0.2), /* Sombra izquierda */
+    4px 0 8px rgba(0, 0, 0, 0.2); ;
+}
+
+.options div{
+    font-weight: 800;
+    height: 35px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    border-radius: 7px;
+}
+
+.options div:hover{
+    background-color: rgb(194, 192, 192)
+}
+
+@media print {
+    h2 {
+      display: none; 
+   }
+}

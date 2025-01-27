@@ -1,0 +1,32 @@
+.despacho{
+    display: grid;
+    grid-template-columns: minmax(8rem, 1fr) minmax(min-content, 95rem) minmax(8rem, 1fr);
+}
+
+.tema{
+    align-items: center;
+}
+
+.dos{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.leonardo, .señor, .tema, .raya{
+    display: flex;
+    flex-direction: column;
+    grid-column: 2 / 3;
+}
+
+.info{
+    grid-column: 2 / 3;
+}
+
+.raya{
+    margin-left: 400px;
+    align-items: center;
+}
+
+.notorial{
+    margin: 0;
+}

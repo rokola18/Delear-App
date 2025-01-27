@@ -1,0 +1,44 @@
+
+.papa-2{
+    display: grid;
+    grid-template-columns: minmax(8rem, 1fr) minmax(min-content, 95rem) minmax(8rem, 1fr);
+    margin-top: 0px;
+}
+
+.img-fina{
+    grid-column: 2 / 3;
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.fecha{
+    grid-column: 2 / 3;
+    text-align: right;
+    margin-right: 150px;
+}
+
+.interesar{
+    grid-column: 2 / 3;
+    text-align: center;
+}
+
+.fecha, .interesar, .despide, .departamento{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.carta-info{
+    grid-column: 2 / 3;
+}
+
+.moto-info p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.departamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

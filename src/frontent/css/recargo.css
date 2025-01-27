@@ -1,0 +1,14 @@
+
+
+.recargo{
+    display: grid;
+    grid-template-columns: minmax(8rem, 1fr) minmax(min-content, 95rem) minmax(8rem, 1fr);
+}
+
+.descargo{
+    grid-column: 2 / 3;
+}
+
+.prime{
+    grid-column: 2 / 3;
+}

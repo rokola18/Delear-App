@@ -1,0 +1,25 @@
+.entrega{
+    display: grid;
+    grid-template-columns: minmax(8rem, 1fr) minmax(min-content, 95rem) minmax(8rem, 1fr);
+    margin-top: 0px;
+}
+
+section{
+    display: grid;
+    grid-column: 2 / 3;
+}
+
+h3{
+  text-align: center; 
+  margin-bottom: 20px; 
+}
+
+.entrega-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centro{
+  text-align: center;
+}
