@@ -6,8 +6,7 @@ const pagareEjecutivo2 = ({texts}) => {
             <div className="ejecutivo">
             <h3>PAGARE EJECUTIVO</h3>
                 <p>
-                    Acto No.  _____________, Folio No.______________; En la ciudad, Municipio y Provincia de San Pedro de Macorís, República Dominicana, a los ({texts.dia}) días del mes de {texts.mes} 
-                    del Año {texts.añoletras} ({texts.añonumeros}); Por ante mí, <span>Dr. Ramón Augusto Gómez Mejía</span>, abogado Notario Público, Inscrito en el Colegio de Notarios Públicos con la Matricula 
+                    Acto No.  _____________, Folio No.______________; En la ciudad, Municipio y Provincia de San Pedro de Macorís, República Dominicana, a los ({texts.dia}) días del mes de {texts.mes} del Año {texts.añoletras} ({texts.añonumeros}); Por ante mí, <span>Dr. Ramón Augusto Gómez Mejía</span>, abogado Notario Público, Inscrito en el Colegio de Notarios Públicos con la Matricula 
                     Numero No.6300, para el municipio de San Pedro de Macorís con estudio profesional abierto de manera permanente  en esta ciudad de San Pedro de Macorís, en C/Enríquez 
                     a Valdez #59 Placer Bonito, de esta ciudad de San Pedro de Macorís; Encontrándome en mi despacho y en el regular ejercicio de mis funciones, HA COMPARECIDO LIBRE Y 
                     VOLUNTARIAMENTE, el señor, <span>{texts.garante}</span> dominicano, mayor de edad, soltero, portador de la cedula de identidad y electoral No.{texts.garantecedula}, con domicilio y 
