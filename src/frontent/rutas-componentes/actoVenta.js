@@ -3,7 +3,7 @@ import '../css/actoVenta.css'
 const ActoVenta = ({texts}) =>{
     return(
         <div>
-            <div className='papa top'>
+            <div className='papa top '>
             <section className='primera bajar'>        
 
                <h3 className='titulo-2 acto'> ACTO DE VENTA BAJO FIRMA PRIVADA.</h3>
