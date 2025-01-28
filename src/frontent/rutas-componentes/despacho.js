@@ -7,7 +7,7 @@ const Despacho = ({texts}) => {
             <div className='despacho'>
                 <h3 className='tema'>DESPACHO <span>FINAUTO LA MAYOR DEL ESTE</span></h3>
                 <p className='fecha dos'>{texts.fechadespacho}</p>
-                <p className='señor'>Señor(a)<span>PEDRO VASQUEZ SANTANA</span></p>
+                <p className='señor'>Señor(a)<span>{texts.vendedor}</span></p>
                 <p className='info'>
                   A través de la presente hacemos formal entrega de LA MOTOCICLETAS: <span>{texts.modelo}</span>, CHASIS: <span>{texts.chasis}</span>, 
                   AÑO: <span>{texts.año}</span>, COLOR: <span>{texts.color}</span>, al señor <span>{texts.vendedor}</span> portador de la cedula de identidad y electoral 

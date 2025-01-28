@@ -11,7 +11,7 @@ export const initialTexts = {
     color: "",
     precio: "SETENTA Y SIETE MIL PESOS (RD$77,000.00)",
     dia: "22",
-    mes: "01",
+    mes: "Enero",
     añoletra: "Dos Mil Veinticinco",
     añonumero: "2025",
     garante: '',
