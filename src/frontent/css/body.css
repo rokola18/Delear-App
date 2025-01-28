@@ -75,6 +75,11 @@ input{
     font-weight: 500;
 }
 
+.venta{
+    font-size: 19px;
+}
+
+
 @media print {
     label, .dinamico {
       display: none; 
@@ -82,6 +87,10 @@ input{
 
     .papa{
         margin-top: 70px;
+    }
+
+    .venta{
+        font-size: 20px;
     }
   }
 
