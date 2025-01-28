@@ -85,10 +85,6 @@ input{
     }
   }
 
-  .acto{
-    font-size: 40px;
-  }
-
-  .venta{
-    font-size: 35px;
-  }
+.venta{
+    margin-top: 30px;
+}
