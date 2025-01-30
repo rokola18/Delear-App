@@ -35,7 +35,7 @@ const MyBody = ({showContent}) => {
             <h3 className='titulo-2 acto'> ACTO DE VENTA BAJO FIRMA PRIVADA.</h3>
             <p className='venta'>
                <span>ENTRE:</span> una parte el señor <span>{texts.vendedor}</span> dominicano, mayor de edad, soltero, portador de la cedula de identidad y 
-               electoral No.<span>{texts.cedula}</span>, con domicilio y residencia en el sector <span className='nada'>{texts.sector}</span>, calle <span>{texts.calle}</span> casa <span>{texts.casa}</span> <span>{texts.municipioProvincia}</span>, quien en lo que sigue del presente acto se denominará <span>EL VENDEDOR</span>; 
+               electoral No.<span>{texts.cedula}</span>, con domicilio y residencia en el sector <span className='nada'>{texts.sector}</span>, calle <span>{texts.calle}</span> casa <span>{texts.casa}</span> <span>{texts.municipioprovincia}</span>, quien en lo que sigue del presente acto se denominará <span>EL VENDEDOR</span>; 
             </p>
             <p className='venta'>
                <span>Y DE LA OTRA PARTE:</span> la compañía <span>FINAUTO FPG LA MAYOR DEL ESTE, SRL;</span> RNC-132-08635-1, ubicada en la calle Isidro Barro, 
@@ -180,8 +180,8 @@ const MyBody = ({showContent}) => {
         <label>
           Municipio y Provinvia:{" "}
           <input
-            value={texts.municipioProvincia}
-            onChange={(e) => handleTextChange("municipio y provinvia", e.target.value)}
+            value={texts.municipioprovincia}
+            onChange={(e) => handleTextChange("municipioprovincia", e.target.value)}
           />
         </label>
 

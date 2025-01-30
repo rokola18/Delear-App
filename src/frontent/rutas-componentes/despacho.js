@@ -9,14 +9,14 @@ const Despacho = ({texts}) => {
                 <p className='fecha dos'>{texts.fechadespacho}</p>
                 <p className='señor'>Señor(a)<span>{texts.vendedor}</span></p>
                 <p className='info'>
-                  A través de la presente hacemos formal entrega de LA MOTOCICLETAS: <span>{texts.modelo}</span>, CHASIS: <span>{texts.chasis}</span>, 
+                  A través de la presente hacemos formal entrega de el {texts.tipo}: <span>{texts.modelo}</span>, CHASIS: <span>{texts.chasis}</span>, 
                   AÑO: <span>{texts.año}</span>, COLOR: <span>{texts.color}</span>, al señor <span>{texts.vendedor}</span> portador de la cedula de identidad y electoral 
-                  No. <span>{texts.cedula}</span>, deseamos informarle que la referida motocicleta fue entregada por concepto de venta, por 
+                  No. <span>{texts.cedula}</span>, deseamos informarle que el referido {texts.tipo} fue entregada por concepto de venta, por 
                   lo que FINAUTO LA MAYOR DEL ESTE entidad comercial debidamente representada por LEONARDO SANCHEZ MERCEDES, 
                   queda liberado de cualquier daño futuro que pueda presentar el vehículo.
                 </p>
                 <p className='info'>
-                  Indicamos que la motocicleta señalada ha sido revisada y entregada en excelente condiciones.
+                  Indicamos que el {texts.tipo} señalada ha sido revisada y entregada en excelente condiciones.
                   Agradeciendo la atención prestada, se despide, Atentamente,
                 </p>
                 <p className='leonardo'>

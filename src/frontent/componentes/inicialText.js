@@ -4,7 +4,7 @@ export const initialTexts = {
     sector: "",
     calle: "",
     casa: '',
-    municipioProvincia: "en Consuelo, Provincia San Pedro de Macorís",
+    municipioprovincia: "en Consuelo, Provincia San Pedro de Macorís",
     modelo: "",
     chasis: "",
     año: "",
@@ -39,5 +39,5 @@ export const initialTexts = {
     parentezco: '',
     trabajo: '',
     telefonogara: '',
-    tipo: 'Motocicleta'
+    tipo: 'vehiculo'
   };
