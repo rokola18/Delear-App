@@ -8,7 +8,7 @@ const ActoVenta = ({texts}) =>{
 
                <h3 className='titulo-2 acto'> ACTO DE VENTA BAJO FIRMA PRIVADA.</h3>
                <p className='venta'>
-                 <span>ENTRE:</span> una parte el señor <span>{texts.vendedor}</span> dominicano, mayor de edad, soltero, portador de la cedula de identidad y 
+                 <span>ENTRE:</span> una parte el Señor(a) <span>{texts.vendedor}</span> dominicano, mayor de edad, soltero, portador de la cedula de identidad y 
                  electoral No.<span>{texts.cedula}</span>, con domicilio y residencia en el sector <span className='nada'>{texts.sector}</span>, calle <span>{texts.calle}</span> casa <span>{texts.casa}</span> <span>{texts.municipioprovincia}</span>, quien en lo que sigue del presente acto se denominará <span>EL COMPRADOR</span>; 
                </p>
                <p className='venta'>
@@ -43,7 +43,7 @@ const ActoVenta = ({texts}) =>{
               </p>
 
               <p className='venta'>
-                <span>TERCERO:</span> La parte VENDEDORA justifica su derecho de propiedad mediante la posesión del vehículo, matrícula original, para todos los casos no 
+                <span>TERCERO:</span> La parte COMPRADORA justifica su derecho de propiedad mediante la posesión del vehículo, matrícula original, para todos los casos no 
                 previstos en el presente acto, las partes se remiten a las prescripciones del derecho común y eligen domicilio en los lugares indicado al inicio 
                 del presente Acto de Venta.
               </p>
@@ -64,7 +64,7 @@ const ActoVenta = ({texts}) =>{
                <p className='titulo-4 venta'>
 ________________________________________________
                  <span>{texts.vendedor} </span>
-                  El Vendedor.
+                  El COMPRADOR.
 
                 </p>
 
@@ -73,7 +73,7 @@ ______________________________________
                   <span>FINAUTO FPG LA MAYOR DEL ESTE, SRL </span>
                    Representada por
                   <span> LEONARDO SANCHEZ MERCEDES </span>
-                   Comprador
+                   Vendedor
 
                 </p>
 
@@ -84,8 +84,8 @@ ______________________________________
                 <p className='venta'>
                   <span>YO, Dr. Ramón Augusto Gómez Mejia</span>, Abogado Notario Público de los del Número para este Municipio de San Pedro de Macorís, inscrito en el Colegio de 
                   Notario Público con el No.6300, <span>CERTIFICO Y DOY FE</span>, que las firmas que anteceden fueron puestas en mi presencia Libre y voluntariamente por señores, 
-                  <span> {texts.vendedor}</span>, (EL VENDEDOR) Y LA <span>COMPAÑIA FINAUTO FPG LA MAYOR DEL ESTE, SRL</span>; RNC-132-08635-1, REPRESENTADA POR EL SEÑOR <span>LEONARDO SANCHEZ MERCEDES </span> 
-                  (EL COMPRADOR), quienes me manifestaron que esas son las firmas que ellos acostumbran utilizar en todos los actos de sus vidas tanto públicas como privadas 
+                  <span> {texts.vendedor}</span>, (EL COMPRADOR) Y LA <span>COMPAÑIA FINAUTO FPG LA MAYOR DEL ESTE, SRL</span>; RNC-132-08635-1, REPRESENTADA POR EL SEÑOR <span>LEONARDO SANCHEZ MERCEDES </span> 
+                  (EL VENDEDOR), quienes me manifestaron que esas son las firmas que ellos acostumbran utilizar en todos los actos de sus vidas tanto públicas como privadas 
                    por lo que las mismas merecen entero crédito y fe. En la Ciudad, Municipio y Provincia de San Pedro de Macorís, República Dominicana.  A los ({texts.dia}) días del mes 
                    de {texts.mes} del año {texts.añoletra} ({texts.añonumero}).
                 </p>

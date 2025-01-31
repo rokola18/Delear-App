@@ -34,7 +34,7 @@ const MyBody = ({showContent}) => {
 
             <h3 className='titulo-2 acto'> ACTO DE VENTA BAJO FIRMA PRIVADA.</h3>
             <p className='venta'>
-               <span>ENTRE:</span> una parte el señor <span>{texts.vendedor}</span> dominicano, mayor de edad, soltero, portador de la cedula de identidad y 
+               <span>ENTRE:</span> una parte el Señor(a) <span>{texts.vendedor}</span> dominicano, mayor de edad, soltero, portador de la cedula de identidad y 
                electoral No.<span>{texts.cedula}</span>, con domicilio y residencia en el sector <span className='nada'>{texts.sector}</span>, calle <span>{texts.calle}</span> casa <span>{texts.casa}</span> <span>{texts.municipioprovincia}</span>, quien en lo que sigue del presente acto se denominará <span>EL VENDEDOR</span>; 
             </p>
             <p className='venta'>
