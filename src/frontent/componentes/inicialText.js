@@ -10,6 +10,7 @@ export const initialTexts = {
     año: "",
     color: "",
     precio: "SETENTA Y SIETE MIL PESOS (RD$77,000.00)",
+    dialetra: 'veintidos',
     dia: "22",
     mes: "Enero",
     añoletra: "Dos Mil Veinticinco",
@@ -24,8 +25,8 @@ export const initialTexts = {
     precioinicialnumero: '',
     porcientoletras: 'Tres por ciento',
     porcientonumeros: '3',
-    cantidadmeses: 'dieciocho meses',
-    preciointeres: 'dos mil cien ',
+    cantidadmeses: 'DIECIOCHO MESES',
+    preciointeres: 'DOS MIL CIEN PESOS',
     preciointeresnumero: '2,100.00',
     fechadeinicioenletras: '8 del mes de Enero del Dos Mil Veinticinco',
     fechadeinicioennumeros: '08/01/2025',
@@ -39,5 +40,5 @@ export const initialTexts = {
     parentezco: '',
     trabajo: '',
     telefonogara: '',
-    tipo: 'vehiculo'
+    tipo: 'VEHICULO'
   };

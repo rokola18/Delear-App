@@ -235,6 +235,14 @@ const MyBody = ({showContent}) => {
             onChange={(e) => handleTextChange("dia", e.target.value)}
           />
           </label>
+
+          <label>
+          Dia actual en letras:{" "}
+          <input
+            value={texts.dialetra}
+            onChange={(e) => handleTextChange("dialetra", e.target.value)}
+          />
+          </label>
          </div>
 
          <div>

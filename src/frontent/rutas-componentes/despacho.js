@@ -43,7 +43,7 @@ const Despacho = ({texts}) => {
                 </p>
 
                 <p className='info'>
-                    Dado en la ciudad de San Pedro de Macorís , República Dominicana, a los {texts.fechadeinicioenletras}.
+                    Dado en la ciudad de San Pedro de Macorís , República Dominicana, a los {texts.dialetra} ({texts.dia}) día(s) del mes de {texts.mes} del año {texts.añoletra} ({texts.añonumero}).
                 </p>
             </div>
         </div>

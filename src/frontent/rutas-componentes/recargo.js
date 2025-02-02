@@ -13,7 +13,7 @@ const Recargo = ({texts}) => {
                   voluntariamente lo siguiente:
                 </p>
                 <p className='prime'>
-                PRIMERO: Que en fecha {texts.fechadeinicioenletras}, he adquirido conforme y a mi entera 
+                PRIMERO: Que en fecha {texts.dia} días del mes de {texts.mes} del año {texts.añonumero}, he adquirido conforme y a mi entera 
                 satisfacción, mediante compra realizada a la sociedad comercial FINAUTO LA MAYOR DEL ESTE., titular 
                 del RNC No. 132-08635-1, con domicilio en la CARRETERA MELLA, ENTRADA DE CONSUELO, SAN PEDRO DE MACORIS 
                 de la República Dominicana, los vehículos de motor descritos a continuación:
@@ -33,7 +33,7 @@ const Recargo = ({texts}) => {
                 </p>
 
                 <p className='prime'>
-                Dado en la ciudad de san pedro de macoris, municipio de consuelo, República Dominicana, a los {texts.fechadeinicioenletras}.
+                Dado en la ciudad de san pedro de macoris, municipio de consuelo, República Dominicana, a los {texts.dia} días del mes de {texts.mes} del año {texts.añonumero}.
                 </p>
 
                 <p  className="titulo-4 prime">
@@ -47,7 +47,7 @@ const Recargo = ({texts}) => {
                 Colegio Dominicano de Notarios, INC., matriculado bajo el número (2920) CERTIFICO Y DOY FE: Que la firma que antecede del 
                 señor LEONARDO SANCHEZ MERCEDES, de generales que constan, fueron puestas en mi presencia libre y voluntariamente por el firmante, 
                 quien me ha declarado que es la misma que acostumbra a usar en todos los actos de su vida pública y privada. En la ciudad de Santo 
-                Domingo de Guzmán, Distrito Nacional, Capital de la República Dominicana, a los {texts.fechadeinicioenletras}.
+                Domingo de Guzmán, Distrito Nacional, Capital de la República Dominicana, a los {texts.dia} días del mes de {texts.mes} del año {texts.añonumero}.
                 </p>
 
                 <p className="titulo-4 prime">
