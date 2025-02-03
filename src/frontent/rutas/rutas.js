@@ -9,11 +9,13 @@ import pagareEjecutivo2 from '../rutas-componentes/pagareEjecutivo2';
 import Recargo from '../rutas-componentes/recargo';
 import Despacho from '../rutas-componentes/despacho';
 import SolicitudPrestamo from '../rutas-componentes/solicitudPrestamo';
+import MyBody from '../componentes/body';
 
   const AppDealer = () => (
     <Router>
       <Routes>
         <Route path='/entregaVoluntaria' element={EntregaVoluntaria}></Route>
+        <Route path='/body' element={MyBody}></Route>
         <Route path='/entregaVoluntaria-2' element={EntregaVoluntaria2}></Route>
         <Route path='/actoVenta' element={ActoVenta}></Route>
         <Route path='/cartaRuta' element={CartaRuta}></Route>

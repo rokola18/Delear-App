@@ -3,9 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '../css/header.css'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
-const Header = ({handleHomeClick, handleEntregaVoluntariaClick, handleActoVentaClick, 
+const Header = ({handleHomeClick,handleMyBodyClick, handleEntregaVoluntariaClick, handleActoVentaClick, 
                  handleEntregaVoluntaria2Click, handleCartaRutaClick, handlePagareEjecutivo1Click,
-                 handlePagareEjecutivo2Click, handleRecargoClick, handleDespachoClick, handleSolicitudClick
+                 handlePagareEjecutivo2Click, handleRecargoClick, handleDespachoClick, handleSolicitudClick,
+                 
                 }) => {
 
     const [menuBars, setMenuBars] = useState(false)
@@ -40,7 +41,8 @@ const Header = ({handleHomeClick, handleEntregaVoluntariaClick, handleActoVentaC
             {menuBars && (
               <div className='munuBars' ref={menuRef}>
                 <div className='options'>
-                  <div onClick={handleHomeClick}>ACTO DE VENTA BAJO FIRMA PRIVADA 1</div>
+                  <div onClick={handleHomeClick}>CAMPOS DINAMICOS</div>
+                  <div onClick={handleMyBodyClick}>ACTO DE VENTA BAJO FIRMA PRIVADA 1</div>
                   <div onClick={handleActoVentaClick}>ACTO DE VENTA BAJO FIRMA PRIVADA 2</div>
                   <div onClick={handleEntregaVoluntariaClick}>ENTREGA VOLUNTARIA 1</div>
                   <div onClick={handleEntregaVoluntaria2Click}>ENTREGA VOLUNTARIA 2</div>

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import MyBody from './componentes/body'
 import Header from './componentes/header'
 import './css/App.css'
+import CamposDinamicos from './componentes/camposdinamicos';
 
 function App () {
 
@@ -9,6 +9,10 @@ function App () {
 
   const handleHomeClick = () => {
     setShowContent('home'); 
+  };
+
+  const handleMyBodyClick = () => {
+    setShowContent('body');  
   };
 
   const handleEntregaVoluntariaClick = () => {
@@ -52,6 +56,7 @@ function App () {
       <header>
         <Header
         handleHomeClick={handleHomeClick}
+        handleMyBodyClick={handleMyBodyClick}
         handleEntregaVoluntariaClick={handleEntregaVoluntariaClick}
         handleEntregaVoluntaria2Click={handleEntregaVoluntaria2Click}
         handleActoVentaClick={handleActoVentaClick}
@@ -64,7 +69,7 @@ function App () {
         />
       </header>
       <main>
-        <MyBody showContent={showContent} 
+        <CamposDinamicos showContent={showContent} 
         
          />
       </main>
