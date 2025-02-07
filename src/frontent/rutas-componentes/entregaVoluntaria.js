@@ -15,7 +15,7 @@ const EntregaVoluntaria = ({texts}) => {
                     <p>
                         En el Municipio de Consuelo, Provincia de San Pedro de Macorís, República Dominicana, a los (________________), días del Mes de _______________, del Año Dos Mil
                          __________________, 20___, quienes suscriben los Señores(as) <span>{texts.vendedor}</span> dominicano, mayor de edad, soltero, portador de la cedula de identidad y electoral 
-                         No.<span>{texts.cedula}</span>, con domicilio y residencia en el sector <span>{texts.sector}</span>, calle <span>{texts.calle}</span> casa <span>{texts.casa}</span>, en el municipio de consuelo, por medio del presente documento formalizamos 
+                         No.<span>{texts.cedula}</span>, con domicilio y residencia en el sector <span>{texts.sector}</span>, calle <span>{texts.calle}</span> casa <span>{texts.casa}</span>, {texts.municipioprovincia}, por medio del presente documento formalizamos 
                          la entrega VOLUNTARIA del vehículo de la compañía <span className='texto-medio'>FINAUTO FPG LA MAYOR DEL ESTE, SRL;</span> RNC-132-08635-1, ubicada en la calle  Isidro Barro, No.19, Barrio Libertad, 
                          Municipio de Consuelo, provincia San Pedro de Macorís, debidamente representada por  el Señor <span> LEONARDO SANCHEZ MERCEDES</span>, dominicano, mayor de edad, soltero, portador 
                          de la cédula de identidad y electoral No.<span>023-0040271-2</span>, domiciliado y residente en la calle Isidro Barro, No.19, Barrio Libertad, Municipio de Consuelo, provincia <span>San 
