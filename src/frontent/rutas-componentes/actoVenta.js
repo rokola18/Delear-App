@@ -25,8 +25,8 @@ const ActoVenta = ({texts}) =>{
 
 
                <p className='venta'>
-                 <span>PRIMERO:</span> Que la primera parte,  <span>{texts.vendedor}</span>, por medio del presente acto, VENDE, CEDE Y TRANSFIERE, con todas las garantías de derecho, 
-                 desde ahora y para siempre, a favor del COMPRADOR(A) SR(A) LEONARDO SANCHEZ MERCEDES, quien acepta conforme el siguiente  VEHICULO que se 
+                 <span>PRIMERO:</span> Que la primera parte,  <span>{texts.vendedor}</span>, por medio del presente acto, COMPRA, REAL Y EFECTIVAMENTE, con todas las garantías de derecho, 
+                 desde ahora y para siempre, a favor del VENDEDOR(A) SR(A) LEONARDO SANCHEZ MERCEDES, quien acepta conforme el siguiente VEHICULO que se 
                  describe a continuación:
                </p>
 
@@ -43,13 +43,13 @@ const ActoVenta = ({texts}) =>{
               </p>
 
               <p className='venta'>
-                <span>TERCERO:</span> La parte COMPRADORA justifica su derecho de propiedad mediante la posesión del vehículo, matrícula original, para todos los casos no 
+                <span>TERCERO:</span> La parte VENDEDORA justifica su derecho de propiedad mediante la posesión del vehículo, matrícula original, para todos los casos no 
                 previstos en el presente acto, las partes se remiten a las prescripciones del derecho común y eligen domicilio en los lugares indicado al inicio 
                 del presente Acto de Venta.
               </p>
 
               <p className='venta'>
-                <span>CUARTO:</span> Que <span>El VENDEDOR</span>, se hará responsable ante cualquier Litis, arbitrio o cualquier situación judicial que pueda tener el inmueble descrito 
+                <span>CUARTO:</span> Que <span>El COMPRADOR</span>, se hará responsable ante cualquier Litis, arbitrio o cualquier situación judicial que pueda tener el inmueble descrito 
                 anteriormente durante el proceso de transferencia. 
               </p>
 
