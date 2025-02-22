@@ -10,7 +10,7 @@ const CartaRuta = ({texts}) => {
                 <section className='carta-info'>
                     <p>
                     Por Medio  de la Presente <span>EL SEÑOR(A) {texts.vendedor} DOMINICANO(A), MAYOR DE EDAD, SOLTERO(A), PORTADOR DE LA CEDULA DE IDENTIDAD 
-                    Y ELECTORAL NO.{texts.cedula}, CON DOMICILIO Y RESIDENCIA EN EL SECTOR {texts.sector}, CALLE {texts.calle} CASA {texts.casa}, CONSUELO  CIUDAD DE SAN PEDRO 
+                    Y ELECTORAL NO.{texts.cedula}, CON DOMICILIO Y RESIDENCIA EN EL SECTOR {texts.sector}, CALLE {texts.calle} CASA {texts.casa}, CONSUELO CIUDAD DE SAN PEDRO 
                     DE MACORIS, ha adquirido de la Compañía FINAUTO LA MAYOR DEL ESTE, LA MOTOCICLETA</span> la cual se describe a   Continuación:
                     </p>
                     <div className='moto-info'>

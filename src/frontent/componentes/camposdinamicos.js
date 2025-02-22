@@ -11,6 +11,7 @@ import Recargo from '../rutas-componentes/recargo';
 import Despacho from '../rutas-componentes/despacho';
 import SolicitudPrestamo from '../rutas-componentes/solicitudPrestamo';
 import MyBody from './body';
+import ActoMotocicletas from '../rutas-componentes/actoMotocicletas';
 
 const CamposDinamicos = ({showContent}) => {
 
@@ -436,6 +437,7 @@ const CamposDinamicos = ({showContent}) => {
            {showContent === 'recargo' && <Recargo texts={texts} />}
            {showContent === 'despacho' && <Despacho texts={texts} />}
            {showContent === 'solicitudPrestamo' && <SolicitudPrestamo texts={texts} />}
+           {showContent === 'actoMotocicletas' && <ActoMotocicletas texts={texts} />}
 
         </div>
     )

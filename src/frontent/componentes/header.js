@@ -6,7 +6,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 const Header = ({handleHomeClick,handleMyBodyClick, handleEntregaVoluntariaClick, handleActoVentaClick, 
                  handleEntregaVoluntaria2Click, handleCartaRutaClick, handlePagareEjecutivo1Click,
                  handlePagareEjecutivo2Click, handleRecargoClick, handleDespachoClick, handleSolicitudClick,
-                 
+                 handleActoMotocicletasClick
                 }) => {
 
     const [menuBars, setMenuBars] = useState(false)
@@ -42,6 +42,7 @@ const Header = ({handleHomeClick,handleMyBodyClick, handleEntregaVoluntariaClick
               <div className='munuBars' ref={menuRef}>
                 <div className='options'>
                   <div onClick={handleHomeClick}>CAMPOS DINAMICOS</div>
+                  <div onClick={handleActoMotocicletasClick}>ACTO DE VENTA BAJO FIRMA PRIVADA</div>
                   <div onClick={handleMyBodyClick}>ACTO DE VENTA BAJO FIRMA PRIVADA 1</div>
                   <div onClick={handleActoVentaClick}>ACTO DE VENTA BAJO FIRMA PRIVADA 2</div>
                   <div onClick={handleEntregaVoluntariaClick}>ENTREGA VOLUNTARIA 1</div>

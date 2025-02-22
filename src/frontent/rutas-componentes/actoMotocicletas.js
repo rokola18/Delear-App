@@ -1,8 +1,9 @@
-import '../css/actoVenta.css'
+import '../css/actoMotocicleta.css'
 
-const ActoVenta = ({texts}) =>{
+const ActoMotocicletas = ({texts}) => {
     return(
         <div>
+            <div>
             <div className='papa top '>
             <section className='primera bajar'>        
 
@@ -25,32 +26,31 @@ const ActoVenta = ({texts}) =>{
 
 
                <p className='venta'>
-                 <span>PRIMERO:</span> Que la primera parte,  <span>{texts.vendedor}</span>, por medio del presente acto, COMPRA, REAL Y EFECTIVAMENTE, con todas las garantías de derecho, 
-                 desde ahora y para siempre, a favor del VENDEDOR(A) SR(A) LEONARDO SANCHEZ MERCEDES, quien acepta conforme el siguiente VEHICULO que se 
-                 describe a continuación:
+               <span>PRIMERO: EL VENDEDOR</span>, por medio del presente acto, VENDE, CEDE Y TRANSFIERE, con todas las garantías de derecho al COMPRADOR, quien acepta conforme el 
+               siguiente vehículo que se describe a continuación:
                </p>
 
-               <span className='venta'>
-                  EL VEHICULO IDENTIFICADO COMO MODELO: {texts.modelo}, CHASIS:{texts.chasis}, AÑO: {texts.año}, COLOR: {texts.color}. UBICADO EN EL MUNICIPIO DE CONSUELO, 
-                  PROVINCIA DE SAN PEDRO DE MACORIS. 
-               </span>
+               <div className='actomoto'>
+                  <div>MODELO: {texts.modelo}</div> 
+                  <div>CHASIS: {texts.chasis}</div>
+                  <div>AÑO: {texts.año}</div>
+                  <div>COLOR: {texts.color}</div>
+               </div>
 
               <p className='venta'>
-                <span>SEGUNDO:</span> La presente venta ha sido convenida y pactada por el precio de {texts.precio}, moneda de curso legal que 
-                <span> EL VENDEDOR</span>, asegura haber recibido de manos del COMPRADOR, de una forma satisfactoria y conforme, quien acepta y recibe conforme el vehículo 
-                que se describió procedentemente, otorgándole a la parte VENDEDORA formal descargo y finiquito legar de la pre-indicada suma de dinero en este 
-                mismo acto a favor del COMPRADOR. 
+                <span>SEGUNDO:</span> La presente venta ha sido convenida por el precio de {texts.precio}, moneda de curso legal que 
+                <span> EL VENDEDOR</span>, asegura haber recibido de manos del COMPRADOR, por lo que por medio de este mismo acto le entrega recibo formal de descargo y finiquito. . 
               </p>
 
               <p className='venta'>
-                <span>TERCERO:</span> La parte VENDEDORA justifica su derecho de propiedad mediante la posesión del vehículo, matrícula original, para todos los casos no 
-                previstos en el presente acto, las partes se remiten a las prescripciones del derecho común y eligen domicilio en los lugares indicado al inicio 
-                del presente Acto de Venta.
+                <span>TERCERO: EL COMPRADOR,</span> justifica su derecho de propiedad mediante la posesión del vehículo, matrícula original, para todos los casos no 
+                previstos en el presente acto, las partes se remiten a las prescripciones del derecho común y eligen domicilio en los lugares indicados al inicio 
+                del presente Acto.
               </p>
 
               <p className='venta'>
-                <span>CUARTO:</span> Que <span>El COMPRADOR</span>, se hará responsable ante cualquier Litis, arbitrio o cualquier situación judicial que pueda tener el inmueble descrito 
-                anteriormente durante el proceso de transferencia. 
+                <span>CUARTO:</span> Para todos los casos no previstos en el presente contrato las partes se remiten a las reglas de derecho común, y efectúan formar 
+                elección de domicilio en sus respectivos domicilios más arriba indicados.
               </p>
 
          </section>
@@ -82,8 +82,8 @@ ______________________________________
                 </p>
 
                 <p className='venta'>
-                  <span>YO, Dr. Ramón Augusto Gómez Mejia</span>, Abogado Notario Público de los del Número para este Municipio de San Pedro de Macorís, inscrito en el Colegio de 
-                  Notario Público con el No.6300, <span>CERTIFICO Y DOY FE</span>, que las firmas que anteceden fueron puestas en mi presencia Libre y voluntariamente por señores, 
+                  <span>YO, Dr. Fernando Elpidio Álvarez Alfonso</span>, Abogado Notario Público de los del Número para este Municipio de San Pedro de Macorís, inscrito en el Colegio de 
+                  Notario Público con el No.6456, <span>CERTIFICO Y DOY FE</span>, que las firmas que anteceden fueron puestas en mi presencia Libre y voluntariamente por señores, 
                   <span> {texts.vendedor}</span>, (EL COMPRADOR) Y LA <span>COMPAÑIA FINAUTO FPG LA MAYOR DEL ESTE, SRL</span>; RNC-132-08635-1, REPRESENTADA POR EL SEÑOR <span>LEONARDO SANCHEZ MERCEDES </span> 
                   (EL VENDEDOR), quienes me manifestaron que esas son las firmas que ellos acostumbran utilizar en todos los actos de sus vidas tanto públicas como privadas 
                    por lo que las mismas merecen entero crédito y fe. En la Ciudad, Municipio y Provincia de San Pedro de Macorís, República Dominicana.  A los ({texts.dia}) días del mes 
@@ -92,15 +92,16 @@ ______________________________________
 
                 <p className='titulo-4 venta'>
 __________________________________________
-                  <span>Dr. Ramón Augusto Gómez Mejia</span> 
+                  <span>Dr. Fernando Elpidio Álvarez Alfonso</span> 
                    Abogado Notario Público. -
 
                 </p>
 
                    </section>
             </div>
+            </div>
         </div>
     )
 }
 
-export default ActoVenta
+export default ActoMotocicletas

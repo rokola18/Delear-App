@@ -34,7 +34,7 @@ const MyBody = ({texts}) => {
             </p>
 
             <span className='venta'>
-            EL VEHICULO IDENTIFICAD0 COMO MODELO: {texts.modelo}, CHASIS:{texts.chasis}, AÑO: {texts.año}, COLOR: {texts.color}. UBICADO EN EL MUNICIPIO DE CONSUELO, 
+            EL VEHICULO IDENTIFICADO COMO MODELO: {texts.modelo}, CHASIS:{texts.chasis}, AÑO: {texts.año}, COLOR: {texts.color}. UBICADO EN EL MUNICIPIO DE CONSUELO, 
             PROVINCIA DE SAN PEDRO DE MACORIS. 
             </span>
 

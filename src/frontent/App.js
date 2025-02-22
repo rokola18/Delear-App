@@ -11,6 +11,10 @@ function App () {
     setShowContent('home'); 
   };
 
+  const handleActoMotocicletasClick = () => {
+    setShowContent('actoMotocicletas'); 
+  };
+
   const handleMyBodyClick = () => {
     setShowContent('body');  
   };
@@ -66,6 +70,7 @@ function App () {
         handleRecargoClick={handleRecargoClick}
         handleDespachoClick={handleDespachoClick}
         handleSolicitudClick={handleSolicitudClick}
+        handleActoMotocicletasClick={handleActoMotocicletasClick}
         />
       </header>
       <main>

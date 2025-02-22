@@ -10,6 +10,7 @@ import Recargo from '../rutas-componentes/recargo';
 import Despacho from '../rutas-componentes/despacho';
 import SolicitudPrestamo from '../rutas-componentes/solicitudPrestamo';
 import MyBody from '../componentes/body';
+import ActoMotocicletas from '../rutas-componentes/actoMotocicletas';
 
   const AppDealer = () => (
     <Router>
@@ -24,6 +25,7 @@ import MyBody from '../componentes/body';
         <Route path='/recargo' element={Recargo}></Route>
         <Route path='/despacho' element={Despacho}></Route>
         <Route path='/solicitudPrestamo' element={SolicitudPrestamo}></Route>
+        <Route path='/actoMotocicletas' element={ActoMotocicletas}></Route>
       </Routes>
     </Router>
   );
