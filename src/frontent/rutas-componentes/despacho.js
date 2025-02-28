@@ -11,7 +11,7 @@ const Despacho = ({texts}) => {
                 <p className='info'>
                   A través de la presente hacemos formal entrega de la {texts.tipo}: <span>{texts.modelo}</span>, CHASIS: <span>{texts.chasis}</span>, 
                   AÑO: <span>{texts.año}</span>, COLOR: <span>{texts.color}</span>, al Señor(a) <span>{texts.vendedor}</span> portador de la cedula de identidad y electoral 
-                  No. <span>{texts.cedula}</span>, deseamos informarle que el referido {texts.tipo} fue entregada por concepto de venta, por 
+                  No. <span>{texts.cedula}</span>, deseamos informarle que la referida {texts.tipo} fue entregada por concepto de venta, por 
                   lo que FINAUTO LA MAYOR DEL ESTE entidad comercial debidamente representada por LEONARDO SANCHEZ MERCEDES, 
                   queda liberado de cualquier daño futuro que pueda presentar la {texts.tipo}.
                 </p>
