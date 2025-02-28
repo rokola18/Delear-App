@@ -43,7 +43,7 @@ const SolicitudPrestamo = ({texts}) => {
                  <p>TIEMPO: {texts.cantidadmeses}</p>
                </div>
                <div className='datosvehi'>
-                <p>DATOS DEL VEHICULO</p>
+                <p>DATOS DE LA MOTOCICLETA</p>
                </div>
                <div className='info-vehi'>
                 <p>TIPO: {texts.tipo}</p>
