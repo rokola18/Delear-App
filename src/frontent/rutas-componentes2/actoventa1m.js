@@ -34,7 +34,7 @@ const ActoVenta1m = ({texts}) => {
 
             <span className='venta'>
             EL VEHICULO IDENTIFICADO COMO MARCA: {texts.marca}, MODELO: {texts.modelo}, CHASIS:{texts.chasis}, AÑO: {texts.año}, COLOR: {texts.color}. UBICADO EN EL MUNICIPIO DE CONSUELO, 
-            PROVINCIA DE SAN PEDRO DE MACORIS. 
+            PROVINCIA DE SAN PEDRO DE MACORIS.  
             </span>
 
             <p className='venta'>
