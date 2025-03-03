@@ -51,9 +51,60 @@ function App () {
     setShowContent('despacho');  
   };
 
+  const handleDespachoCarClick = () => {
+    setShowContent('despachocar');  
+  };
+
   const handleSolicitudClick = () => {
     setShowContent('solicitudPrestamo');  
   };
+
+/*PARA LAS MUJERES */
+
+const handleActoVentamClick = () => {
+  setShowContent('actoventam');  
+};
+
+const handleActoVentam1Click = () => {
+  setShowContent('actoventa1m');  
+};
+
+const handleActoVentam2Click = () => {
+  setShowContent('actoventa2m');  
+};
+
+const handleCartaRutamClick = () => {
+  setShowContent('cartarutam');  
+};
+
+const handleEntregaVoluntariaMClick = () => {
+  setShowContent('entregavoluntariam');  
+};
+
+const handleEntregaVoluntariaM2Click = () => {
+  setShowContent('entregavoluntariam2');  
+};
+
+const handlePagareEjecutivoM1Click = () => {
+  setShowContent('pagareejecutivom');  
+};
+
+const handlePagareEjecutivoM2Click = () => {
+  setShowContent('pagareejecutivom2');  
+};
+
+const handleDescargoClick = () => {
+  setShowContent('descargom')
+}
+
+const handleDespachomClick = () => {
+  setShowContent('despachom')
+}
+
+const handleDespachoCarmClick = () => {
+  setShowContent('despachocarm')
+}
+
   
   return(
     <div>
@@ -69,8 +120,21 @@ function App () {
         handlePagareEjecutivo2Click={handlePagareEjecutivo2Click}
         handleRecargoClick={handleRecargoClick}
         handleDespachoClick={handleDespachoClick}
+        handleDespachoCarClick={handleDespachoCarClick}
         handleSolicitudClick={handleSolicitudClick}
         handleActoMotocicletasClick={handleActoMotocicletasClick}
+        /*PARA LAS MUJERES */
+        handleActoVentamClick={handleActoVentamClick}
+        handleActoVentam1Click={handleActoVentam1Click}
+        handleActoVentam2Click={handleActoVentam2Click}
+        handleCartaRutamClick={handleCartaRutamClick}
+        handleEntregaVoluntariaMClick={handleEntregaVoluntariaMClick}
+        handleEntregaVoluntariaM2Click={handleEntregaVoluntariaM2Click}
+        handlePagareEjecutivoM1Click={handlePagareEjecutivoM1Click}
+        handlePagareEjecutivoM2Click={handlePagareEjecutivoM2Click}
+        handleDescargoClick={handleDescargoClick}
+        handleDespachomClick={handleDespachomClick}
+        handleDespachoCarmClick={handleDespachoCarmClick}
         />
       </header>
       <main>

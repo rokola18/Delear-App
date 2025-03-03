@@ -6,6 +6,7 @@ export const initialTexts = {
     casa: '',
     municipioprovincia: "en Consuelo, Provincia San Pedro de Macorís",
     modelo: "",
+    marca:'',
     chasis: "",
     año: "",
     color: "",
@@ -20,6 +21,7 @@ export const initialTexts = {
     sectorgarante: '',
     callegarante: '',
     casagarante: '',
+    municipioprovinciagarante: 'en Consuelo, Provincia San Pedro de Macorís',
     fecharuta: '08 DE FEBRERO 2025',
     precioinicialletra: '',
     precioinicialnumero: '',
@@ -40,5 +42,5 @@ export const initialTexts = {
     parentezco: '',
     trabajo: '',
     telefonogara: '',
-    tipo: 'VEHICULO'
+    tipo: 'MOTOCICLETA'
   };

@@ -1,11 +1,12 @@
 
-const EntregaVoluntaria2 = ({texts}) => {
+
+const EntregaVoluntariaM2 = ({texts}) => {
 
     return(
         <div >
             <div className='entrega'>
 
-                <section>
+            <section>
                     <h3>
                         ENTREGA VOLUNTARIA
                     </h3>
@@ -60,4 +61,4 @@ const EntregaVoluntaria2 = ({texts}) => {
     )
 }
 
-export default EntregaVoluntaria2
+export default EntregaVoluntariaM2

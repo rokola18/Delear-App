@@ -31,6 +31,7 @@
 .options{
     background-color: white;
     position: absolute;
+    height: 500px;
     top: 77px;
     left: 8px;
     border-radius: 15px;
@@ -41,7 +42,10 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), /* Sombra inferior */
     0 -4px 8px rgba(0, 0, 0, 0.2), /* Sombra superior */
     -4px 0 8px rgba(0, 0, 0, 0.2), /* Sombra izquierda */
-    4px 0 8px rgba(0, 0, 0, 0.2); ;
+    4px 0 8px rgba(0, 0, 0, 0.2);
+    overflow-y: scroll; 
+    overflow-x: hidden;  /* Hace la barra más delgada en Firefox */
+    scrollbar-color: gray transparent; 
 }
 
 .options div{
@@ -50,12 +54,17 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    padding: 0 10px 0 10px;
+    padding: 7px 10px 7px 10px;
     border-radius: 7px;
 }
 
 .options div:hover{
     background-color: rgb(194, 192, 192)
+}
+
+.hombre{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 @media print {

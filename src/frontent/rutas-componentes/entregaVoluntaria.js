@@ -14,12 +14,12 @@ const EntregaVoluntaria = ({texts}) => {
                     </h3>
                     <p>
                         En el Municipio de Consuelo, Provincia de San Pedro de Macorís, República Dominicana, a los (________________), días del Mes de _______________, del Año Dos Mil
-                         __________________, 20___, quienes suscriben los Señores(as) <span>{texts.vendedor}</span> dominicano(a), mayor de edad, soltero(a), portador de la cedula de identidad y electoral 
+                         __________________, 20___, quienes suscriben los Señores(as) <span>{texts.vendedor}</span> dominicano, mayor de edad, soltero, portador de la cedula de identidad y electoral 
                          No.<span>{texts.cedula}</span>, con domicilio y residencia en el sector <span>{texts.sector}</span>, calle <span>{texts.calle}</span> casa <span>{texts.casa}</span>, {texts.municipioprovincia}, por medio del presente documento formalizamos 
                          la entrega VOLUNTARIA del vehículo de la compañía <span className='texto-medio'>FINAUTO FPG LA MAYOR DEL ESTE, SRL;</span> RNC-132-08635-1, ubicada en la calle  Isidro Barro, No.19, Barrio Libertad, 
                          Municipio de Consuelo, provincia San Pedro de Macorís, debidamente representada por  el Señor <span> LEONARDO SANCHEZ MERCEDES</span>, dominicano, mayor de edad, soltero, portador 
                          de la cédula de identidad y electoral No.<span>023-0040271-2</span>, domiciliado y residente en la calle Isidro Barro, No.19, Barrio Libertad, Municipio de Consuelo, provincia <span>San 
-                         Pedro de Macorís</span>, el cual recibe conforme el vehículo que se describe a continuación. MODELO: {texts.modelo}, CHASIS: {texts.chasis}, AÑO: {texts.año}, COLOR: {texts.color}, 
+                         Pedro de Macorís</span>, el cual recibe conforme el vehículo que se describe a continuación. MARCA: {texts.marca}, MODELO: {texts.modelo}, CHASIS: {texts.chasis}, AÑO: {texts.año}, COLOR: {texts.color}, 
                          SAN PEDRO  DE MACORIS. Queda entendido que la cantidad pagada por mí, después de la realización de dicha venta, queda en provecho de LEONARDO SANCHEZ MERCEDES, en compensación 
                          del uso y deterioro sufrido por EL VEHICULO, mientras estuvo en mi poder, también para resarcir cualquier gasto incurrido a consecuencia de mi retardo y de otros adicionales  
                          (Jurídico, Transporte, etc.). Dicha entrega voluntaria se efectúa por este haberlo adquirido mediante el acto de venta de fecha (    ), del mes (              ) de del año (        ), 

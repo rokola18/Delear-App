@@ -8,7 +8,7 @@ const ActoVenta = ({texts}) =>{
 
                <h3 className='titulo-2 acto'> ACTO DE VENTA BAJO FIRMA PRIVADA.</h3>
                <p className='venta'>
-                 <span>ENTRE:</span> una parte el Señor(a) <span>{texts.vendedor}</span> dominicano(a), mayor de edad, soltero(a), portador de la cedula de identidad y 
+                 <span>ENTRE:</span> una parte el Señor <span>{texts.vendedor}</span> dominicano, mayor de edad, soltero, portador de la cedula de identidad y 
                  electoral No.<span>{texts.cedula}</span>, con domicilio y residencia en el sector <span className='nada'>{texts.sector}</span>, calle <span>{texts.calle}</span> casa <span>{texts.casa}</span> <span>{texts.municipioprovincia}</span>, quien en lo que sigue del presente acto se denominará <span>EL COMPRADOR</span>; 
                </p>
                <p className='venta'>
@@ -31,7 +31,7 @@ const ActoVenta = ({texts}) =>{
                </p>
 
                <span className='venta'>
-                  EL VEHICULO IDENTIFICADO COMO MODELO: {texts.modelo}, CHASIS:{texts.chasis}, AÑO: {texts.año}, COLOR: {texts.color}. UBICADO EN EL MUNICIPIO DE CONSUELO, 
+                  EL VEHICULO IDENTIFICADO COMO MARCA: {texts.marca}, MODELO: {texts.modelo}, CHASIS: {texts.chasis}, AÑO: {texts.año}, COLOR: {texts.color}. UBICADO EN EL MUNICIPIO DE CONSUELO, 
                   PROVINCIA DE SAN PEDRO DE MACORIS. 
                </span>
 
@@ -39,7 +39,7 @@ const ActoVenta = ({texts}) =>{
                 <span>SEGUNDO:</span> La presente venta ha sido convenida y pactada por el precio de {texts.precio}, moneda de curso legal que 
                 <span> EL VENDEDOR</span>, asegura haber recibido de manos del COMPRADOR, de una forma satisfactoria y conforme, quien acepta y recibe conforme el vehículo 
                 que se describió procedentemente, otorgándole a la parte VENDEDORA formal descargo y finiquito legar de la pre-indicada suma de dinero en este 
-                mismo acto a favor del COMPRADOR. 
+                mismo acto a favor del <span>COMPRADOR</span>. 
               </p>
 
               <p className='venta'>

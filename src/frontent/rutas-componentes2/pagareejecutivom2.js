@@ -1,16 +1,17 @@
-import '../css/pagareEjecutivo.css'
 
-const PagareEjecutivo1 = ({texts}) => {
+
+const PagareEjecutivom2 = ({texts}) => {
     return(
         <div>
             <div className="ejecutivo">
-                <h3>PAGARE EJECUTIVO</h3>
-                <p>
+            <h3>PAGARE EJECUTIVO</h3>
+            
+            <p>
                     Acto No.  _____________, Folio No.______________; En la ciudad, Municipio y Provincia de San Pedro de Macorís, República Dominicana, a los ({texts.dia}) días del mes de {texts.mes} del Año {texts.añoletra} ({texts.añonumero}); Por ante mí, <span>Dr. Ramón Augusto Gómez Mejía</span>, abogado Notario Público, Inscrito en el Colegio de Notarios Públicos con la Matricula 
                     Numero No.6300, para el municipio de San Pedro de Macorís con estudio profesional abierto de manera permanente  en esta ciudad de San Pedro de Macorís, en C/Enríquez 
                     a Valdez #59 Placer Bonito, de esta ciudad de San Pedro de Macorís; Encontrándome en mi despacho y en el regular ejercicio de mis funciones, HA COMPARECIDO LIBRE Y 
-                    VOLUNTARIAMENTE, El Señor, <span>{texts.vendedor}</span> dominicano, mayor de edad, soltero, portador de la cedula de identidad y electoral No.{texts.cedula}, con domicilio y 
-                    residencia en el sector {texts.sector}, calle {texts.calle} casa {texts.casa}, {texts.municipioprovincia}, quien bajo la fe del juramento me ha declarado lo siguiente: <span>PRIMERO:</span> Que reconoce 
+                    VOLUNTARIAMENTE, El/la Señor(a), <span>{texts.garante}</span> dominicano(a), mayor de edad, soltero(a), portador(a) de la cedula de identidad y electoral No.{texts.garantecedula}, con domicilio y 
+                    residencia en el sector {texts.sectorgarante}, calle {texts.callegarante} casa {texts.casagarante}, {texts.municipioprovinciagarante}, quien bajo la fe del juramento me ha declarado lo siguiente: <span>PRIMERO:</span> Que reconoce 
                     por medio del presente acto ser <span>DEUDOR</span>, del Señor <span>LUIS ACTA MERCEDES</span>, dominicano, mayor de edad, soltero, portador de la cédula de identidad y electoral No. 023-0045609-8, 
                     domiciliado y residente en el municipio de Consuelo, San Pedro de Macorís, República Dominicana, por la suma de {texts.precioinicialletra}, <span>(RD${texts.precioinicialnumero})</span>, moneda de curso legal, de 
                     los cuales se compromete a pagar el valor de un  {texts.porcientoletras} ({texts.porcientonumeros}%) de interes mensual, por {texts.cantidadmeses}, interes que suma la cantidad de {texts.preciointeres} (RD${texts.preciointeresnumero}), 
@@ -29,9 +30,10 @@ const PagareEjecutivo1 = ({texts}) => {
                     y en alta voz a los comparecientes e invitados a leerlo por si mismo, y asi lo han hecho, quienes en señal  de aprobacion han procedido a firmarlo al final del presente acto, conmigo y junto a mi, 
                     de todo lo cual <span>CERTIFICO Y DOY FE.-</span>   
                 </p>
+
                 <p className='titulo-4'>
                     _____________________________________
-                      <span>{texts.vendedor}</span>
+                      <span>{texts.garante}</span>
                                     Deudor
 
                 </p>
@@ -69,4 +71,4 @@ const PagareEjecutivo1 = ({texts}) => {
     )
 }
 
-export default PagareEjecutivo1
+export default PagareEjecutivom2

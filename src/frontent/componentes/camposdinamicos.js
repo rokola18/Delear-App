@@ -12,6 +12,18 @@ import Despacho from '../rutas-componentes/despacho';
 import SolicitudPrestamo from '../rutas-componentes/solicitudPrestamo';
 import MyBody from './body';
 import ActoMotocicletas from '../rutas-componentes/actoMotocicletas';
+import ActoMotocicletasm from '../rutas-componentes2/actoventam';
+import ActoVenta1m from '../rutas-componentes2/actoventa1m';
+import ActoVenta2m from '../rutas-componentes2/actoventa2m';
+import CartaRutam from '../rutas-componentes2/cartarutam';
+import EntregaVoluntariaM from '../rutas-componentes2/entregavoluntariam';
+import EntregaVoluntariaM2 from '../rutas-componentes2/entregavoluntariam2';
+import PagareEjecutivom1 from '../rutas-componentes2/pagareejecutivom';
+import PagareEjecutivom2 from '../rutas-componentes2/pagareejecutivom2';
+import Descargo from '../rutas-componentes2/descargom';
+import Despachom from '../rutas-componentes2/despachom';
+import DespachoCar from '../rutas-componentes/despachocar';
+import DespachoCarm from '../rutas-componentes2/despachocarm';
 
 const CamposDinamicos = ({showContent}) => {
 
@@ -95,12 +107,21 @@ const CamposDinamicos = ({showContent}) => {
    <div>
 
    <label>
-     Modelo y Marca:{" "}
+     Marca:{" "}
+     <input
+       value={texts.marca}
+       onChange={(e) => handleTextChange("marca", e.target.value)}
+     />
+   </label>
+
+   <label>
+     Modelo:{" "}
      <input
        value={texts.modelo}
        onChange={(e) => handleTextChange("modelo", e.target.value)}
      />
    </label>
+
    <label>
      Chasis:{" "}
      <input
@@ -223,6 +244,15 @@ const CamposDinamicos = ({showContent}) => {
        onChange={(e) => handleTextChange("casagarante", e.target.value)}
      />
      </label>
+
+     <label>
+      Municipio y Provincia del garante:{" "}
+     <input
+       value={texts.municipioprovinciagarante}
+       onChange={(e) => handleTextChange("municipioprovinciagarante", e.target.value)}
+     />
+     </label>
+
 
      <label>
      Fecha de la ruta:{" "}
@@ -436,9 +466,22 @@ const CamposDinamicos = ({showContent}) => {
            {showContent === 'pagareEjecutivo2' && <PagareEjecutivo2 texts={texts} />}
            {showContent === 'recargo' && <Recargo texts={texts} />}
            {showContent === 'despacho' && <Despacho texts={texts} />}
+           {showContent === 'despachocar' && <DespachoCar texts={texts} />}
            {showContent === 'solicitudPrestamo' && <SolicitudPrestamo texts={texts} />}
            {showContent === 'actoMotocicletas' && <ActoMotocicletas texts={texts} />}
 
+           
+           {showContent === 'actoventam' && <ActoMotocicletasm texts={texts} />}
+           {showContent === 'actoventa1m' && <ActoVenta1m texts={texts} />}
+           {showContent === 'actoventa2m' && <ActoVenta2m texts={texts} />}
+           {showContent === 'cartarutam' && <CartaRutam texts={texts} />}
+           {showContent === 'entregavoluntariam' && <EntregaVoluntariaM texts={texts} />}
+           {showContent === 'entregavoluntariam2' && <EntregaVoluntariaM2 texts={texts} />}
+           {showContent === 'pagareejecutivom' && <PagareEjecutivom1 texts={texts} />}
+           {showContent === 'pagareejecutivom2' && <PagareEjecutivom2 texts={texts} />}
+           {showContent === 'descargom' && <Descargo texts={texts} />}
+           {showContent === 'despachom' && <Despachom texts={texts} />}
+           {showContent === 'despachocarm' && <DespachoCarm texts={texts} />}
         </div>
     )
 }

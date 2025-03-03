@@ -1,12 +1,12 @@
-import '../css/recargo.css'
 
-const Recargo = ({texts}) => {
+
+const Descargo = ({texts}) => {
     return(
         <div>
             <div className="recargo">
                 <h3 className='descargo'>DESCARGO DE RESPONSABILIDAD CIVIL Y/O PENAL</h3>
                 <p className='prime'>
-                  YO, <span>{texts.vendedor}</span>, dominicano, mayor de edad, Titular de la Cedula de Identidad y 
+                  YO, <span>{texts.vendedor}</span>, dominicana, mayor de edad, Titular de la Cedula de Identidad y 
                   Elector No. {texts.cedula}, Por si y por <span>FINAUTO FPG LA MAYOR DEL ESTE SRL</span>, en calidad de 
                   gerente, titular de RCN Núm. 132-08635-1, con domicilio social en CARRETERA MELLA NO.70, 
                   CONSUELO, SAN PEDRO DE MACORIS, República Dominicana. HAGO CONSTAR y DECLARO libre y 
@@ -62,4 +62,4 @@ const Recargo = ({texts}) => {
     )
 }
 
-export default Recargo
+export default Descargo

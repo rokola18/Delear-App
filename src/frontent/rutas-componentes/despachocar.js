@@ -1,6 +1,6 @@
-import '../css/despacho.css'
 
-const Despacho = ({texts}) => {
+
+const DespachoCar = ({texts}) => {
 
     return(
         <div>
@@ -9,14 +9,14 @@ const Despacho = ({texts}) => {
                 <p className='fecha dos'>{texts.fechadespacho}</p>
                 <p className='señor'>Señor(a)<span>{texts.vendedor}</span></p>
                 <p className='info'>
-                  A través de la presente hacemos formal entrega de la MOTOCICLETA: MARCA: <span>{texts.marca}</span>, MODELO: <span>{texts.modelo}</span>, CHASIS: <span>{texts.chasis}</span>, 
+                  A través de la presente hacemos formal entrega del VEHICULO: MARCA: <span>{texts.marca}</span>, MODELO: <span>{texts.modelo}</span>, CHASIS: <span>{texts.chasis}</span>, 
                   AÑO: <span>{texts.año}</span>, COLOR: <span>{texts.color}</span>, al Señor <span>{texts.vendedor}</span> portador de la cedula de identidad y electoral 
-                  No. <span>{texts.cedula}</span>, deseamos informarle que la referida MOTOCICLETA fue entregada por concepto de venta, por 
+                  No. <span>{texts.cedula}</span>, deseamos informarle que el referido VEHICULO fue entregada por concepto de venta, por 
                   lo que FINAUTO LA MAYOR DEL ESTE entidad comercial debidamente representada por LEONARDO SANCHEZ MERCEDES, 
-                  queda liberado de cualquier daño futuro que pueda presentar la MOTOCICLETA.
+                  queda liberado de cualquier daño futuro que pueda presentar el VEHICULO.
                 </p>
                 <p className='info'>
-                  Indicamos que la MOTOCICLETA señalada ha sido revisada y entregada en excelente condiciones.
+                  Indicamos que el VEHICULO señalado ha sido revisado y entregado en excelente condiciones.
                   Agradeciendo la atención prestada, se despide, Atentamente,
                 </p>
                 <p className='leonardo'>
@@ -51,4 +51,4 @@ const Despacho = ({texts}) => {
 
 }
 
-export default Despacho
+export default DespachoCar

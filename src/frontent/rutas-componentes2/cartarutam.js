@@ -1,6 +1,5 @@
-import '../css/cartaRuta.css'
 
-const CartaRuta = ({texts}) => {
+const CartaRutam = ({texts}) => {
     return(
         <div>
             <div className='papa-2'>
@@ -9,7 +8,7 @@ const CartaRuta = ({texts}) => {
                 <p className='interesar'>A QUIEN PUEDA INTERESAR</p>
                 <section className='carta-info'>
                     <p>
-                    Por Medio  de la Presente <span>EL SEÑOR {texts.vendedor}, PORTADOR DE LA CEDULA DE IDENTIDAD 
+                    Por Medio  de la Presente <span>LA SEÑORA {texts.vendedor}, PORTADORA DE LA CEDULA DE IDENTIDAD 
                     Y ELECTORAL NO.{texts.cedula}, CON DOMICILIO Y RESIDENCIA EN EL SECTOR {texts.sector}, CALLE {texts.calle} CASA {texts.casa}, CONSUELO CIUDAD DE SAN PEDRO 
                     DE MACORIS,</span> ha adquirido de la Compañía FINAUTO LA MAYOR DEL ESTE, LA MOTOCICLETA la cual se describe a Continuación:
                     </p>
@@ -55,4 +54,4 @@ const CartaRuta = ({texts}) => {
     )
 }
 
-export default CartaRuta
+export default CartaRutam
